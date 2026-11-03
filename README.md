@@ -20,13 +20,6 @@ Intended uses:
 - Water-resource planning for rural and peri-urban communities
 - Research on off-grid water service reliability
 
-## What this is not
-
-SafeSip's AI demand-prediction model is proprietary (patent filed in Tanzania) and
-is not included in this repository. This repo contains the open data layer and the
-tooling that produces it: collection, anonymization, aggregation, and example
-analyses.
-
 ## Repository layout
 
 - `data/` - published datasets and the data dictionary
