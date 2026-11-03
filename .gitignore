@@ -1,0 +1,7 @@
+# Raw and intermediate files never committed
+raw/
+*.tmp
+hub_map.json
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
