@@ -1,0 +1,10 @@
+hub_id,date,region,litres_dispensed,unique_users_est,uptime_pct,solar_kwh
+HUB-01,2026-10-01,Morogoro,1420.5,210,98.2,4.1
+HUB-01,2026-10-02,Morogoro,1388.0,204,97.9,3.8
+HUB-01,2026-10-03,Morogoro,1512.3,226,99.1,4.4
+HUB-02,2026-10-01,Morogoro,1210.7,185,96.4,3.9
+HUB-02,2026-10-02,Morogoro,1198.2,181,98.8,4.0
+HUB-02,2026-10-03,Morogoro,1305.9,197,99.4,4.2
+HUB-03,2026-10-01,Morogoro,1640.1,248,99.0,4.3
+HUB-03,2026-10-02,Morogoro,1590.4,240,98.5,4.0
+HUB-03,2026-10-03,Morogoro,1712.8,261,99.6,4.5

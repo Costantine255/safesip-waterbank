@@ -1,0 +1,7 @@
+hub_id,week_start,tds_ppm,ph,turbidity_ntu,test_type
+HUB-01,2026-09-28,145,7.1,0.4,sensor
+HUB-01,2026-10-05,138,7.0,0.3,manual
+HUB-02,2026-09-28,162,7.2,0.5,sensor
+HUB-02,2026-10-05,155,7.1,0.4,manual
+HUB-03,2026-09-28,129,6.9,0.3,sensor
+HUB-03,2026-10-05,134,7.0,0.3,manual
