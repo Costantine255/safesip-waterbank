@@ -1,0 +1,5 @@
+# Runtime for scripts/ and notebooks/
+pandas>=2.0
+matplotlib>=3.6
+# notebooks/ only
+jupyter>=1.0
