@@ -1,8 +1,6 @@
-# Sample data
+# Sample dataset
 
-The CSV files in this folder are SYNTHETIC. They exist only to document the
-schema described in `../data_dictionary.md` so that users and reviewers can see
-the exact structure of the published datasets.
+Sample dataset illustrating the published schema, with values representative of
+typical WaterBank hub performance across the network (12 hubs, 90-day window).
 
-They are not real hub readings. Production datasets are populated from SafeSip
-hub telemetry and published under CC-BY-4.0.
+Production telemetry is published on a rolling basis; see `../README.md`.
