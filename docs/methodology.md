@@ -30,7 +30,6 @@ Manual field test kits provide weekly turbidity and pH cross-checks.
 ## What is not published
 
 - Exact hub GPS coordinates (rounded before publication)
-- The AI demand-prediction model, which is proprietary (patent filed in Tanzania)
 - Any personal data: none is collected at the hubs
 
 ## Data quality
