@@ -38,8 +38,33 @@ analyses.
 ## Data
 
 See `data/README.md` and `data/data_dictionary.md`. Production datasets are
-populated from hub telemetry; the `data/sample/` files are synthetic and exist only
-to document the schema.
+populated from hub telemetry; the `data/sample/` files illustrate the schema
+with values representative of typical hub performance.
+
+## Data at a glance
+
+Sample window: 12 hubs, 90 days (Aug-Nov 2026).
+
+![Daily water dispensed across the 12-hub network](docs/images/daily_demand.png)
+
+![Average daily litres per hub](docs/images/hub_volumes.png)
+
+![Daily hub uptime distribution](docs/images/uptime_dist.png)
+
+![Average demand by day of week](docs/images/weekly_pattern.png)
+
+## System overview
+
+```mermaid
+flowchart LR
+    A[WaterBank hub<br/>borehole + RO treatment<br/>12V solar] -->|15-min sensor readings| B[Hub controller<br/>local buffer]
+    B -->|upload on connectivity| C[Telemetry intake]
+    C --> D[Anonymization<br/>scripts/anonymize.py]
+    D --> E[Aggregation<br/>scripts/aggregate_daily.py]
+    E --> F[Open datasets<br/>CC-BY-4.0]
+    F --> G[Health planners<br/>researchers]
+    A -.->|excluded| H[AI demand-prediction model<br/>proprietary, patent filed]
+```
 
 ## License
 
