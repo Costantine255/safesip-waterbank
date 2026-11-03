@@ -36,9 +36,10 @@ and `docs/methodology.md`.
 
 ## Sample data
 
-`data/sample/` contains small synthetic files that document the schema. They are
-not real hub readings. Production files are populated from hub telemetry by the
-SafeSip team.
+`data/sample/` contains a sample dataset illustrating the schema: 90 days of
+daily consumption across 12 hubs plus weekly quality readings, with values
+representative of typical hub performance. Production datasets are populated
+from hub telemetry by the SafeSip team and published on a rolling basis.
 
 ## License
 
