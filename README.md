@@ -53,4 +53,4 @@ please cite SafeSip and link back to this repository.
 
 ## Contact
 
-SafeSip - https://safesip.co.tz - faith@safesip.co.tz
+SafeSip - https://safesip.co.tz - cto@safesip.co.tz
